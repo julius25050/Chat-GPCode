@@ -1,0 +1,61 @@
+/* Variables globales */
+:root {
+    --primary-color: #008060;
+    --secondary-color: #006048;
+    --text-color: #ffffff;
+    --facebook-color: #1877f2;
+    --google-bg: #ffffff;
+    --email-color: #808080;
+    --link-hover: #00a67c;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    position: relative;
+    background-image: 
+        radial-gradient(circle at 90% 10%, rgba(255, 255, 255, 0.07) 20%, transparent 20%),
+        radial-gradient(circle at 10% 90%, rgba(255, 255, 255, 0.07) 25%, transparent 25%);
+    background-size: 800px 800px;
+    background-position: 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Responsive base */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,44 @@
+/* Estilos específicos para la página de registro */
+.registro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.registro-container h1 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.auth-options {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.auth-btn.google i {
+    color: #4285F4;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.auth-links {
+    text-align: center;
+    width: 100%;
+}
+
+.auth-links p {
+    margin-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .registro-container h1 {
+        font-size: 1.8rem;
+    }
+}
